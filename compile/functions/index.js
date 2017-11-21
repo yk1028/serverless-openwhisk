@@ -2,6 +2,7 @@
 
 const BbPromise = require('bluebird');
 const Runtimes = require('./runtimes/index.js')
+const GradleJava = require('./gradle-java')
 
 class OpenWhiskCompileFunctions {
   constructor(serverless, options) {
